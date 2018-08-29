@@ -1,73 +1,46 @@
 <!DOCTYPE html>
 <html lan="en-US">
+
 <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="EZ fitness ">
-        <meta name="author" content="Chris Bitz">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="description" content="EZ fitness ">
+    <meta name="author" content="Chris Bitz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" type="text/css" rel="stylesheet">
     <title>EZ Fitness</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
     <h1>EZ Fitness</h1>
     <hr>
+</head>
+
+<body>
+    <p>
+        Hello and welcome to EZ Fitness.
+        <br> This app was designed to give you the tools you need to achieve a better body without over complicating things.
+    </p>
+    
+
+    </p>
+    <hr>
+    <button class="btn">Click here to start</button>
+    <style>
+        .btn {
+            background-color: black;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            font-size: 16px;
+            margin: 250px 600px;
+            opacity: 0.6;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            opacity: 1
+        }
+    </style>
     </head>
+
     <body>
-        <p>
-            Hello and welcome to EZ Fitness.<br> This app was designed to give you the tools you need to
-             achieve a better body without over complicating things.
-        </p>
-        <h3>
-            How does it work?
-        </h3>
-        <p>
-            Below are a list of some simple questions.<br>After filling them in to the best
-             of your knowledge, EZ Fitness will create a workout program that is tailored to your individual needs.
-        </p>
-        <form>
-            <action="create_user.php" method="get" 
-            enctype="application/x-www-form-urlencoded"></action>
-            <input type="text" name="username" placeholder="Username">
-            <input type="password" name="Password" placeholder="Password">
-            <input type="submit" value="submit">
-            <a href="signup.html"> Signup</a>
-        </form>
-        <hr>
-    <form>
-        What is your current fitness level?
-        <input type="radio" name="fitnesslevel" value="Beginner"> Beginner
-        <input type="radio" name="fitnesslevel" value="intermediate">intermediate
-        <input type="radio"name="fitnesslevel" value="advanced">Advanced
-        <input type="radio"name="fitnesslevel" value="expert">Expert
-    </form>
-    <img src="Pictures/517231346.jpg">
-    <hr>
-    <form>
-        What would you like to do today?
-        <input type="checkbox"name="typeofworkout" value="Chest">Chest
-        <input type="checkbox" name="typeofworkout" value="back">Back
-        <input type="checkbox" name="typeofworkout" value="Legs">Legs
-        <input type="checkbox" name="typeofworkout" value="Shoulders">Shoulders
-        <input type="checkbox" name="typeofworkout" value="biceps">Biceps
-        <input type="checkbox" name="typeofworkout" value="triceps">Triceps
-        <input type="checkbox" name="typeofworkout" value="Abdominals">Abdominals
-    </form>
-        <img src="Pictures/depositphotos_66253287-stock-photo-muscular-bodybuilder-guy-close-up.jpg">
-    <hr>
-    <form>
-            What type of equipment would you like to use?
-            <input type="checkbox"name="equipment" value="dumbbells">Dumbbells
-            <input type="checkbox" name="equipment" value="Barbells">Barbells
-            <input type="checkbox" name="equipment" value="Cables">Cables
-            <input type="checkbox" name="equipment" value="Machines">Machines
-            <input type="checkbox" name="equipment" value="Bodyweight">Bodyweight
-        </form>
-        <img src="Pictures/fitness-girl-dumbbells-dark-background-48839649.jpg">
-
-
-
-
-
-
-       
-    </body>
